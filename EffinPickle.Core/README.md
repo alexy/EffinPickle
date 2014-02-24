@@ -24,7 +24,15 @@ The F# iOS addin will be disabled, you can reenable it.
 
 Now we create a new solution `EffinPickle` with an _F# Portable Library project_, `EffinPickle.Core`.
 
+The `FSharp.Core` reference is red, the message under it says there's no version for `.NETportable`.  We simply remove it.  We can add the version 4.3.1.0 from the newly installed F#; interestingly we don't need to add an `FSharp.Core` at all, the template code compiles without it.
+
 We set the portable profile 78 per various tweets.  `:)`
+
+If we build it right away, we get a warning:
+
+    /Library/Frameworks/Mono.framework/Versions/3.2.7/lib/mono/4.5/Microsoft.Common.targets: Warning: Unable to find framework corresponding to the target framework moniker '.NETFramework,Version=v4.5,Profile=Profile78'. Framework assembly references will be resolved from the GAC, which might not be the intended behavior. (EffinPickle)
+
+Changing the profile doesn't seem to help.
 
 In Xamarin Studio, we add addin repository <http://mrward.github.com/monodevelop-nuget-addin-repository/4.0/main.mrep>, 
 and install NuGet addin.  With it, we install package MvvmCross, MvvmCross CrossCore.
