@@ -42,6 +42,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="ToDo-MvvmCross\_ Core.txt" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Cirrious.CrossCore">
