@@ -51,3 +51,7 @@ Building shows the following error in `FirstViewModel.fs`:
 Obviosly the C# equivalent, produced by adding the same MvvmCross NuGet packages, does not require that dependency.
 
 What is going on?
+
+Github issue: <https://github.com/fsharp/fsharp/issues/196>
+
+fsharp-opensource post: <https://groups.google.com/forum/?hl=en#!topic/fsharp-opensource/EVGO7LQFIBo>
