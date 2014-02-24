@@ -24,6 +24,8 @@ The F# iOS addin will be disabled, you can reenable it.
 
 Now we create a new solution `EffinPickle` with an _F# Portable Library project_, `EffinPickle.Core`.
 
+We set the portable profile 78 per various tweets.  `:)`
+
 In Xamarin Studio, we add addin repository <http://mrward.github.com/monodevelop-nuget-addin-repository/4.0/main.mrep>, 
 and install NuGet addin.  With it, we install package MvvmCross, MvvmCross CrossCore.
 
