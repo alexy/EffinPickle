@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{4925A630-B079-445d-BCD4-3A9C94FE9307}") = "EffinPickle.Core", "EffinPickle.Core\EffinPickle.Core.fsproj", "{AC3DACD1-ED89-4EB3-8ACE-BAF12C86780B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC3DACD1-ED89-4EB3-8ACE-BAF12C86780B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3DACD1-ED89-4EB3-8ACE-BAF12C86780B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3DACD1-ED89-4EB3-8ACE-BAF12C86780B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3DACD1-ED89-4EB3-8ACE-BAF12C86780B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = EffinPickle.Core\EffinPickle.Core.fsproj
+	EndGlobalSection
+EndGlobal
